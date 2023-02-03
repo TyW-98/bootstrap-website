@@ -16,11 +16,17 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,200;0,400;0,500;0,700;1,300;1,700&family=Itim&family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
   </head>
-
   <body>
     <section id="title">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
           <a class="navbar-brand ms-2" href=""
             ><img src="images/potato.ico" alt="potato-icon" />POTATO</a
@@ -92,40 +98,81 @@
       </nav>
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 col-md-7 col-sm-7">
-            <h1>Learn how to make sourdough pizza quick and simple</h1>
-            <h3>Over 1000 authentic recipes!</h3>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+          <div class="col-lg-6 col-md-7">
+            <div class="row">
+              <h1 class="heading-text">Learn to make sourdough pizza at the comfort of your home</h1>
+              <h3>Over 1000 authentic recipes!</h3>
+            </div>
+            <div class="row">
+              <div class="col">
+                <button type="button">Download</button>
+                <button type="button">Download</button> 
+              </div>
+            </div>
           </div>
-          <div class="col-lg-6 col-md-4 col-sm-6"> <!--The number of columns in a single row is 12 so 'col-6' equals to half of the page-->
-            <img src="images/header-pizza-image.jpg" alt="pizza-image" width="350px">
+          <div class="col-lg-6 col-md-4">
+            <!--The number of columns in a single row is 12 so 'col-6' equals to half of the page-->
+            <img
+              src="images/header-pizza-image.jpg"
+              alt="pizza-image"
+              width="350px"
+            />
           </div>
         </div>
       </div>
-
     </section>
 
     <section id="app-features">
-        <h3>Easy to use</h3>
-        <p>Designed to be kid friendly</p>
-        <h3>Detail recipes</h3>
-        <p>Step by step guiding you to your perfect pizza at the comfort of your home</p>
-        <h3>QUick and simple recipes</h3>
-        <p>Easy to understand instruction to allow your children to join you on the journey to the perfect pizza</p>
+      <h3>Easy to use</h3>
+      <p>Designed to be kid friendly</p>
+      <h3>Detail recipes</h3>
+      <p>
+        Step by step guiding you to your perfect pizza at the comfort of your
+        home
+      </p>
+      <h3>QUick and simple recipes</h3>
+      <p>
+        Easy to understand instruction to allow your children to join you on the
+        journey to the perfect pizza
+      </p>
     </section>
 
     <section id="testimonials">
-      <img src="images/chef-picture.jpg" alt="chef-image" width="225" style="border-radius: 100%;">
+      <img
+        src="images/chef-picture.jpg"
+        alt="chef-image"
+        width="225"
+        style="border-radius: 100%"
+      />
       <h2>Best pizza I have ever had from the comfort of my home.</h2>
       <em>Dino, World Renowned chef</em>
     </section>
 
     <section id="press-logo">
-      <img src="images/food-award-1.jpg" alt="award-image" width="225" style="border-radius: 100%">
-      <img src="images/best-company.jpg" alt="company-award-image" width="225" style="border-radius: 100%;">
-      <img src="images/delicious-award.jpg" alt="delicious-awrad-image" width="225" style="border-radius:100%">
-      <img src="images/pizza-award.jpg" alt="pizza-awrad-image" width="225" style="border-radius:100%">
+      <img
+        src="images/food-award-1.jpg"
+        alt="award-image"
+        width="225"
+        style="border-radius: 100%"
+      />
+      <img
+        src="images/best-company.jpg"
+        alt="company-award-image"
+        width="225"
+        style="border-radius: 100%"
+      />
+      <img
+        src="images/delicious-award.jpg"
+        alt="delicious-awrad-image"
+        width="225"
+        style="border-radius: 100%"
+      />
+      <img
+        src="images/pizza-award.jpg"
+        alt="pizza-awrad-image"
+        width="225"
+        style="border-radius: 100%"
+      />
     </section>
 
     <section id="subscription-plan">
@@ -150,13 +197,11 @@
       <h4>£60/month</h4>
       <button type="button">Sign-Up</button>
     </section>
-    
-    <section id="cta">
 
+    <section id="cta">
       <h3>Treat yourself and try out today</h3>
       <button type="button">Download</button>
       <button type="button">Download</button>
-
     </section>
     <footer id="footer">
       <h>© Copyright FirePizza</h>
