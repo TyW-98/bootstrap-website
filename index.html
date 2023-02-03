@@ -4,8 +4,11 @@
     <title>My Personal Website</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
-    <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-    <link href="images/person.ico" rel="icon"/>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link href="images/person.ico" rel="icon" />
     <!-- Bootstrap CSS v5.2.1 -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
@@ -16,69 +19,100 @@
   </head>
 
   <body>
-    <header>
-        <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand ms-2" href=""><img src="images/potato.ico" alt="potato-icon">POTATO</a>
-                <form class="form-inline">
-                    <input 
-                        class="form-control" 
-                        type="search" 
-                        placeholder="Search" 
-                        aria-label="search box"
-                    >
-                </form>
-                <button class="btn btn-outline-success my-2 my-sm-0 ms-2" type="submit">Search</button>
-                <button 
-                    class="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarToggleDropDownHeaderMenu"
-                    aria-controls="navbarToggleDropDownHeaderMenu"
-                    aria-expanded="false"
-                    aria-label="Toggle drop down header menu">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarToggleDropDownHeaderMenu">
-                    <ul class="navbar-nav ms-auto me-2">
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a 
-                                class="nav-link dropdown-toggle" 
-                                href=""
-                                id="navbarDropdownSection"
-                                role="button"
-                                data-bs-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false">
-                                Section
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownSection">
-                                <a class="dropdown-item" href="">Introduction</a>
-                                <a class="dropdown-item" href="">Education History</a>
-                                <a class="dropdown-item" href="">Technical Skills</a>
-                                <a class="dropdown-item" href="">Projects</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Download a copy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="">Contact me</a>
-                        </li>
-                    </ul>
+    <section id="title">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-2" href=""
+            ><img src="images/potato.ico" alt="potato-icon" />POTATO</a
+          >
+          <form class="form-inline">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Search for your pizza"
+              aria-label="search box"
+            />
+          </form>
+          <button
+            class="btn btn-outline-success my-2 my-sm-0 ms-2"
+            type="submit"
+          >
+            Search
+          </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleDropDownHeaderMenu"
+            aria-controls="navbarToggleDropDownHeaderMenu"
+            aria-expanded="false"
+            aria-label="Toggle drop down header menu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarToggleDropDownHeaderMenu"
+          >
+            <ul class="navbar-nav ms-auto me-2">
+              <li class="nav-item">
+                <a class="nav-link" href="">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href=""
+                  id="navbarDropdownSection"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Section
+                </a>
+                <div
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownSection"
+                >
+                  <a class="dropdown-item" href="">Introduction</a>
+                  <a class="dropdown-item" href="">Education History</a>
+                  <a class="dropdown-item" href="">Technical Skills</a>
+                  <a class="dropdown-item" href="">Projects</a>
                 </div>
-            </div>
-        </nav>
-    </header>
-    <main>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Download a copy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div>
+        <h1>Learn how to make pizza quick and simple</h1>
+        <h3>Over 1000 authentic recipes!</h3>
+        <button type="button">Download</button>
+        <button type="button">Download</button>
+      </div>
+      <div>
+        <img src="images/header-pizza-image.jpg" alt="pizza-image" width="20%">
+      </div>
 
-    </main>
-    <footer>
-      
-    </footer>
+    </section>
+
+    <section id="app-features">
+        <h3>Easy to use</h3>
+        <p>Easy and kid friendly user interface</p>
+        <h3>Detail recipes</h3>
+        <p>Step by step guiding you to your perfect pizza at the comfort of your home</p>
+        <h3>QUick and simple recipes</h3>
+        <p>Easy to understand instruction to allow your children to join you on the journey to the perfect pizza</p>
+
+    </section>
+
+    <footer></footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
