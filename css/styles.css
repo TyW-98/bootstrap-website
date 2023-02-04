@@ -14,6 +14,7 @@ body {
 
 #testimonials {
     background-color: rgba(240, 224, 206, 0.938);
+    margin-bottom: 20px;
 }
 
 .container-fluid {
@@ -39,23 +40,6 @@ body {
     bottom: 30px;
 }
 
-.features-text {
-    margin-top: 5mm;
-}
-
-.features-title {
-    color:rgb(34, 98, 182);
-    margin-bottom: 15px;
-}
-
-.features-logo {
-    color:rgb(112, 70, 19);
-    margin: 15px 0 20px;
-}
-
-.features-logo:hover {
-    color:rgb(245, 192, 17);
-}
 /*Navigation bar*/
 
 .navbar {
@@ -80,4 +64,41 @@ body {
     margin-top: 2.5rem;
     margin-right: 2.5rem;
     margin-bottom: 2.5rem;
+}
+
+/* App Features */
+
+.features-text {
+    margin-top: 5mm;
+}
+
+.features-title {
+    color:rgb(34, 98, 182);
+    margin-bottom: 15px;
+}
+
+.features-logo {
+    color:rgb(112, 70, 19);
+    margin: 15px 0 20px;
+}
+
+.features-logo:hover {
+    color:rgb(245, 192, 17);
+}
+
+/* Testimonials */
+
+.testimonial-image {
+    text-align: right;
+    padding-bottom: 15px;
+}
+
+.testimonial-text {
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.chef-name {
+    font-weight: 400;
 }
