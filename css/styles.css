@@ -1,3 +1,7 @@
+body {
+    font-family: "IBM Plex Mono",monospace;
+}
+
 #title {
     background-color: rgb(224, 189, 140);
     line-height: 1.5;
@@ -15,4 +19,9 @@
     font-weight: 400;
     text-align: left;
     line-height: 1.25;
+    color: rgb(109, 77, 40);
+}
+
+.pizza-image {
+    transform: rotate(5deg);
 }
