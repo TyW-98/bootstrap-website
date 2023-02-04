@@ -1,5 +1,11 @@
 #title {
-    background-color: rgb(236, 213, 181);
+    background-color: rgb(224, 189, 140);
+}
+
+.container-fluid {
+    padding-left: 5%;
+    padding-top: 1.5%;
+    padding-right: 5%;
 }
 
 .heading-text {
