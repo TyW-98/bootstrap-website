@@ -3,7 +3,7 @@ body {
 }
 
 #title {
-    background-color: rgb(224, 189, 140);
+    background-color: rgba(211, 177, 130, 0.733);
     line-height: 1.5;
 }
 
@@ -23,5 +23,34 @@ body {
 }
 
 .pizza-image {
-    transform: rotate(5deg);
+    width: 60%;
+    margin-bottom: 1.75rem;
+    position: relative;
+    left: 175px;
+    bottom: 30px;
+}
+
+/*Navigation bar*/
+
+.navbar {
+    padding: 0 0 2.5rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 2.25rem;
+}
+
+.nav-item {
+    padding: 0 12px;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.download-button {
+    margin-top: 2.5rem;
+    margin-right: 2.5rem;
 }
