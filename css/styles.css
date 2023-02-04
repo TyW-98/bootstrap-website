@@ -9,12 +9,12 @@ body {
 
 #app-features {
     text-align: center;
-    color: #8f8f8f
+    color: #8f8f8f;
+    margin: 150px 0;
 }
 
 #testimonials {
     background-color: rgba(240, 224, 206, 0.938);
-    margin-bottom: 20px;
 }
 
 .container-fluid {
@@ -52,7 +52,7 @@ body {
 }
 
 .nav-item {
-    padding: 0 12px;
+    padding: 0 10px;
 }
 
 .nav-link {
@@ -70,10 +70,11 @@ body {
 
 .features-text {
     margin-top: 5mm;
+    padding: 0 50px;
 }
 
 .features-title {
-    color:rgb(34, 98, 182);
+    color:rgb(156, 124, 55);
     margin-bottom: 15px;
 }
 
@@ -101,4 +102,10 @@ body {
 
 .chef-name {
     font-weight: 400;
+}
+
+/* Press logos */
+#press-logo {
+    margin-left: 50px;
+    text-align: center;
 }
