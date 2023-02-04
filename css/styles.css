@@ -9,6 +9,11 @@ body {
 
 #app-features {
     text-align: center;
+    color: #8f8f8f
+}
+
+#testimonials {
+    background-color: rgba(240, 224, 206, 0.938);
 }
 
 .container-fluid {
@@ -39,12 +44,17 @@ body {
 }
 
 .features-title {
-    color:brown
+    color:rgb(34, 98, 182);
+    margin-bottom: 15px;
 }
 
 .features-logo {
     color:rgb(112, 70, 19);
     margin: 15px 0 20px;
+}
+
+.features-logo:hover {
+    color:rgb(245, 192, 17);
 }
 /*Navigation bar*/
 
