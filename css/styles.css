@@ -114,10 +114,6 @@ body {
     background-color: black;
 }
 
-.carousel-indicators {
-    color: black;
-}
-
 /* Press logos */
 
 #press-logo-section {
@@ -128,5 +124,8 @@ body {
 
 .press-logos {
     border-radius: 100%;
-    width: 85%;
+    width: 60%;
 }
+
+/* Subscription plans */
+
