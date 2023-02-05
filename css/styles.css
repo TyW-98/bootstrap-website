@@ -7,16 +7,6 @@ body {
     line-height: 1.5;
 }
 
-#app-features {
-    text-align: center;
-    color: #8f8f8f;
-    margin: 150px 0;
-}
-
-#testimonials {
-    background-color: rgba(240, 224, 206, 0.938);
-}
-
 .container-fluid {
     padding-left: 10%;
     padding-top: 1.5%;
@@ -68,44 +58,75 @@ body {
 
 /* App Features */
 
+#app-features {
+    text-align: center;
+    color: #8f8f8f;
+    margin: 150px 0;
+}
+
 .features-text {
     margin-top: 5mm;
     padding: 0 50px;
 }
 
 .features-title {
-    color:rgb(156, 124, 55);
+    color:rgb(100, 79, 33);
     margin-bottom: 15px;
+    font-weight: 700;
 }
 
 .features-logo {
-    color:rgb(112, 70, 19);
+    color:rgb(212, 159, 93);
     margin: 15px 0 20px;
 }
 
 .features-logo:hover {
-    color:rgb(245, 192, 17);
+    color:rgb(88, 59, 23);
 }
 
 /* Testimonials */
 
+#testimonials {
+    background-color: rgba(240, 224, 206, 0.938);
+}
+
 .testimonial-image {
     text-align: right;
-    padding-bottom: 15px;
+    margin:50px 0;
 }
 
 .testimonial-text {
     text-align: left;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 10px;
 }
 
 .chef-name {
     font-weight: 400;
+    font-size: 12pt;
+}
+
+.carousel-item {
+    padding: 0 15%;
+}
+
+.carousel-control-next-icon , .carousel-control-prev-icon {
+    background-color: black;
+}
+
+.carousel-indicators {
+    color: black;
 }
 
 /* Press logos */
-#press-logo {
-    margin-left: 50px;
+
+#press-logo-section {
+    padding: 35px 25px;
     text-align: center;
+    background-color: rgba(240, 224, 206, 0.938);
+}
+
+.press-logos {
+    border-radius: 100%;
+    width: 85%;
 }
