@@ -27,7 +27,8 @@ body {
     margin-bottom: 1.75rem;
     position: relative;
     left: 175px;
-    bottom: 30px;
+    top: 15px;
+    transform: rotate(25deg);
 }
 
 /*Navigation bar*/
@@ -61,11 +62,13 @@ body {
 #app-features {
     text-align: center;
     color: #8f8f8f;
-    margin: 150px 0;
+    padding: 150px 0;
+    background-color: white;
+    position: relative;
+    z-index: 1;
 }
 
 .features-text {
-    margin-top: 5mm;
     padding: 0 50px;
 }
 
