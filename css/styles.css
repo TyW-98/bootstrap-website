@@ -194,6 +194,28 @@ body {
     color:#8f8f8f
 }
 
+@media (max-width:1030px) {
+
+    #heading-section {
+        padding-right: 10%;
+    }
+
+    .pizza-image {
+        transform: rotate(0deg);
+        width: 250px;
+    }
+
+    .testimonial-image {
+        text-align: center;
+    }
+
+    .testimonial-text {
+        text-align: center;
+        position: relative;
+        bottom: 100px;
+    }
+}
+
 @media (max-width: 762px) {
 
     .heading-text {
