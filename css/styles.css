@@ -51,7 +51,6 @@ body {
 
 .download-button {
     margin: 1.5rem 2.5rem 0 0
-    
 }
 
 /* App Features */
@@ -154,4 +153,21 @@ body {
 
 .subscription-item {
     padding: 0 2%;
+}
+
+@media (max-width: 1061px) {
+
+    .heading-text {
+        text-align: justify;
+    }
+
+    .pizza-image {
+        margin-top: 15px;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    #heading-section {
+        text-align: center;
+    }
 }
