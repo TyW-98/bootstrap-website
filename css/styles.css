@@ -50,7 +50,7 @@ body {
 }
 
 .download-button {
-    margin: 1.5rem 2.5rem 0 0
+    margin: 1.5rem 2.5rem 0.75rem 0
 }
 
 /* App Features */
@@ -85,7 +85,7 @@ body {
 /* Testimonials */
 
 #testimonials {
-    background-color: rgba(240, 224, 206, 0.938);
+    background-color: rgba(211, 177, 130, 0.733);
 }
 
 .testimonial-image {
@@ -117,7 +117,7 @@ body {
 #press-logo-section {
     padding: 35px 25px;
     text-align: center;
-    background-color: rgba(240, 224, 206, 0.938);
+    background-color: rgba(211, 177, 130, 0.733);
 }
 
 .press-logos {
@@ -164,7 +164,7 @@ body {
 }
 
 .cta {
-    padding-top: 100px;
+    padding: 100px 2% 0;
     font-size: 32pt;
     font-weight: 600;
     color:rgb(109, 77, 40)
@@ -179,7 +179,7 @@ body {
 #footer {
     text-align: center;
     height: 150px;
-    padding-top: 50px;
+    padding-top: 50px ;
 }
 
 .social-icons {
@@ -194,7 +194,7 @@ body {
     color:#8f8f8f
 }
 
-@media (max-width: 991px) {
+@media (max-width: 762px) {
 
     .heading-text {
         text-align: justify;
