@@ -155,10 +155,30 @@ body {
     padding: 0 2%;
 }
 
+/* CTA section */
+
+#cta-section {
+    background-color :rgba(211, 177, 130, 0.733);
+    text-align: center;
+    height: 250px;
+}
+
+.cta {
+    padding-top: 50px;
+    font-size: 32pt;
+    font-weight: 600;
+    color:rgb(109, 77, 40)
+}
+
+.cta-download-button {
+    margin: 1.5rem 2.5rem 0 0;
+}
+
 @media (max-width: 1061px) {
 
     .heading-text {
         text-align: justify;
+        text-align: center;
     }
 
     .pizza-image {
