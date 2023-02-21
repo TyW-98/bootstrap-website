@@ -1,5 +1,6 @@
 body {
     font-family: "IBM Plex Mono",monospace;
+    text-align: center;
 }
 
 #title {
@@ -7,7 +8,9 @@ body {
     line-height: 1.5;
 }
 
-.container-fluid {
+/* Heading section */
+
+#heading-section.container-fluid {
     padding: 1.5% 10% 0;
 }
 
@@ -18,6 +21,10 @@ body {
     text-align: left;
     line-height: 1.25;
     color: rgb(109, 77, 40);
+}
+
+.heading-subtext {
+    text-align: left;
 }
 
 .pizza-image {
@@ -56,7 +63,6 @@ body {
 /* App Features */
 
 #app-features {
-    text-align: center;
     color: #8f8f8f;
     padding: 200px 0;
     background-color: white;
@@ -116,7 +122,6 @@ body {
 
 #press-logo-section {
     padding: 35px 25px;
-    text-align: center;
     background-color: rgba(211, 177, 130, 0.733);
 }
 
@@ -133,7 +138,6 @@ body {
 }
 
 .subscription-description {
-    text-align: center;
     padding: 50px 0;
 }
 
@@ -144,11 +148,6 @@ body {
 
 .card-header , .card-footer {
     background-color: rgba(245, 207, 164, 0.938);
-    text-align: center;
-}
-
-.card-body {
-    text-align: center;
 }
 
 .subscription-item {
@@ -159,7 +158,6 @@ body {
 
 #cta-section {
     background-color :rgba(211, 177, 130, 0.733);
-    text-align: center;
     height: 300px;
 }
 
@@ -177,7 +175,6 @@ body {
 /* Footer Section */
 
 #footer {
-    text-align: center;
     height: 150px;
     padding-top: 50px ;
 }
@@ -204,6 +201,8 @@ body {
         transform: rotate(0deg);
         width: 250px;
     }
+
+
 
     .testimonial-image {
         text-align: center;
