@@ -160,11 +160,11 @@ body {
 #cta-section {
     background-color :rgba(211, 177, 130, 0.733);
     text-align: center;
-    height: 250px;
+    height: 300px;
 }
 
 .cta {
-    padding-top: 50px;
+    padding-top: 100px;
     font-size: 32pt;
     font-weight: 600;
     color:rgb(109, 77, 40)
@@ -174,7 +174,27 @@ body {
     margin: 1.5rem 2.5rem 0 0;
 }
 
-@media (max-width: 1061px) {
+/* Footer Section */
+
+#footer {
+    text-align: center;
+    height: 150px;
+    padding-top: 50px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.footer-icon {
+    margin: 0 0.85rem 0 ;
+}
+
+.copyright-text {
+    color:#8f8f8f
+}
+
+@media (max-width: 991px) {
 
     .heading-text {
         text-align: justify;
@@ -189,5 +209,15 @@ body {
 
     #heading-section {
         text-align: center;
+    }
+
+    .testimonial-image {
+        text-align: center;
+    }
+
+    .testimonial-text {
+        text-align: center;
+        position: relative;
+        bottom: 100px;
     }
 }
